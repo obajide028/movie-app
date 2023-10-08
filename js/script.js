@@ -429,23 +429,23 @@ function addCommasToNumber(number){
 }
 
 
-// Init App
+//Init App
 function init(){
     switch(global.currentPage){
-        case '/flixx-app/index.html':
+        case '/11-flixx-app/index.html':
             displaySlider();
             displayPopularMovies();
             break;
-        case '/flixx-app/shows.html':
+        case '/11-flixx-app/shows.html':
             displayPopularShows();
             break;
-        case '/flixx-app/movie-details.html':
+        case '/11-flixx-app/movie-details.html':
             displayMovieDetails();
             break;    
-        case '/flixx-app/tv-details.html':
+        case '/11-flixx-app/tv-details.html':
              displayShowDetails();
               break;       
-        case '/flixx-app/search.html':
+        case '/11-flixx-app/search.html':
              search();
              break;  
     }
