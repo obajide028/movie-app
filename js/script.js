@@ -432,20 +432,21 @@ function addCommasToNumber(number){
 //Init App
 function init(){
     switch(global.currentPage){
-        case '/11-flixx-app/index.html':
+        case '/':
+        case '/index.html':
             displaySlider();
             displayPopularMovies();
             break;
-        case '/11-flixx-app/shows.html':
+        case '/shows.html':
             displayPopularShows();
             break;
-        case '/11-flixx-app/movie-details.html':
+        case '/movie-details.html':
             displayMovieDetails();
             break;    
-        case '/11-flixx-app/tv-details.html':
+        case '/tv-details.html':
              displayShowDetails();
               break;       
-        case '/11-flixx-app/search.html':
+        case '/search.html':
              search();
              break;  
     }
